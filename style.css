@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.navbar{
+    background-image:linear-gradient(to left,rgb(234, 245, 250)30%, white) ;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom:25px;
+    border-bottom: 1px black solid;
+}
+
+.navidiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.navli{
+    margin-right: 40px;
+    display:inline-block;
+}
+
+.navli a{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navibutton{
+
+    padding-left: 30px;
+    padding-RIGHT: 30px;
+    padding-BOTTOM: 12px;  
+    padding-TOP: 12px;
+    border-radius: 4PX;
+    border: none;
+    background-color: rgb(2, 129, 225);
+    font-size: 15px;
+
+}
+
+.navibutton a{
+    color: white;
+}
+
+.navibutton:hover{
+    opacity: 0.7;
+}
+
+.navibutton:active{
+    opacity: 0.5;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: vertical;
+    justify-content: space-between;
+    background-image:linear-gradient(to right,rgb(234, 245, 250) 50%, white) ;
+    height: 283px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-left: 90px;   
+    padding-right: 90px;
+}
+
+.text{
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 20%;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    margin-top: 25px;
+    font-weight: 1000;
+    font-size: 4.25cap;
+    width: 490px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p{
+    margin-top: 8px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+.contentbutton{
+    padding-left: 25px;
+    padding-RIGHT: 25px;
+    padding-BOTTOM: 15px;  
+    padding-TOP: 15px;
+    border-radius: 8PX;
+    width: 40%;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(30, 87, 245);
+    margin-top: 20px;
+}
+
+.contentbutton a{
+    color: white;
+}
+
+.contentbutton:hover{
+    opacity: 0.7;
+}
+
+.contentbutton:active{
+    opacity: 0.5;
+}
+
+img{
+    float: right;
+    border-radius: 20px;
+    width: 50%;
+    height: 130%;
+}
